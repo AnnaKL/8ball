@@ -29,7 +29,8 @@
                    ng-controller="PredictionController">
       <img class="logo" src="img/8ball.png" alt=""
            ng-click="ask()">
-      <p class="prediction show">{{ prediction }}</p>
+      <p class="prediction"
+         ng-class="{'show':answered}">{{ prediction }}</p>
       </ion-content>
     </ion-pane>
   </body>
