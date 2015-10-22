@@ -27,8 +27,9 @@
       <ion-content class="ball-center-content padding"
                    scroll="false"
                    ng-controller="PredictionController">
-      <img class="logo" src="img/8ball.png" alt="">
-      <p class="prediction show">Tap the 8ball for an answer</p>
+      <img class="logo" src="img/8ball.png" alt=""
+           ng-click="ask()">
+      <p class="prediction show">{{ prediction }}</p>
       </ion-content>
     </ion-pane>
   </body>
