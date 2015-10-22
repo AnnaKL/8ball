@@ -1,10 +1,9 @@
-/*
 .pane {
     background-color: black;
 }
 
 .ball-center-content {
-    display: -webkit-flex;
+  display: -webkit-flex;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -23,6 +22,13 @@
 	-webkit-flex-direction: column;
 }
 
+.logo {
+	height: 90px;
+	width: 90px;
+	margin-top: -50px;
+	margin-bottom: 50px;
+}
+
 .prediction {
 	text-align: center;
 	font-size: 24px;
@@ -36,11 +42,6 @@
 	opacity: 1;
 }
 
-.logo {
-	height: 60px;
-	width: 60px;
-	margin-top: -50px;
-	margin-bottom: 50px;
-}
-*/
+
+
 
